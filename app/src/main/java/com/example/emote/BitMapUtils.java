@@ -24,13 +24,7 @@ class BitmapUtils {
     private static final String FILE_PROVIDER_AUTHORITY = "com.example.android.fileprovider";
 
 
-    /**
-     * Resamples the captured photo to fit the screen for better memory usage.
-     *
-     * @param context   The application context.
-     * @param imagePath The path of the photo to be resampled.
-     * @return The resampled bitmap
-     */
+    
     static Bitmap resamplePic(Context context, String imagePath) {
 
         // Get device screen size information
