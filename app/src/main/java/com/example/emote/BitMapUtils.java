@@ -93,13 +93,6 @@ class BitmapUtils {
     }
 
 
-    /**
-     * Helper method for saving the image.
-     *
-     * @param context The application context.
-     * @param image   The image to be saved.
-     * @return The path of the saved image.
-     */
     static String saveImage(Context context, Bitmap image) {
 
         String savedImagePath = null;
