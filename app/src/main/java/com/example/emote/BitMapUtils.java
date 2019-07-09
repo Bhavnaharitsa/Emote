@@ -132,12 +132,7 @@ class BitmapUtils {
         return savedImagePath;
     }
 
-    /**
-     * Helper method for sharing an image.
-     *
-     * @param context   The image context.
-     * @param imagePath The path of the image to be shared.
-     */
+    
     static void shareImage(Context context, String imagePath) {
         // Create the share intent and start the share activity
         File imageFile = new File(imagePath);
