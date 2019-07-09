@@ -83,12 +83,7 @@ class BitmapUtils {
         return deleted;
     }
 
-    /**
-     * Helper method for adding the photo to the system photo gallery so it can be accessed
-     * from other apps.
-     *
-     * @param imagePath The path of the saved image
-     */
+   
     private static void galleryAddPic(Context context, String imagePath) {
         Intent mediaScanIntent = new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE);
         File f = new File(imagePath);
