@@ -52,12 +52,7 @@ class BitmapUtils {
         return BitmapFactory.decodeFile(imagePath);
     }
 
-    /**
-     * Creates the temporary image file in the cache directory.
-     *
-     * @return The temporary image file.
-     * @throws IOException Thrown if there is an error creating the file
-     */
+   
     static File createTempImageFile(Context context) throws IOException {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss",
                 Locale.getDefault()).format(new Date());
